@@ -6,7 +6,7 @@ feature test against background image
 
 find disc in captured image
 
-if s>85, verify disc
+if scorre > 85, call verify_disc
 
 threshold image thup, thdown
 
@@ -21,12 +21,25 @@ sum
 
 if edge > limit , call action
 
-timming:
-cam: 20-40ms
-image process:10ms
+timing:
+cam capture: 20-40ms
+image process time:10ms
 action time:50ms
 
 =============
 total: 100 ms for action
        50 ms for non action
        
+   
+unloader
+==============
+- count 50 discs
+- trigger unloader
+- set clam 2 
+ - delay 1
+ - release clam low
+ - delay   2
+ - set low clam
+ - delay 3
+  - release up clam
+  - resume
