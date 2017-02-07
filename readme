@@ -43,3 +43,12 @@ unloader
  - delay 3
   - release up clam
   - resume
+  
+  
+  capture timing check
+  =========================
+  1. capture
+  2. saving image
+  3. save timimg at the end and begining of the image frame
+     
+  
