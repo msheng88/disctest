@@ -2,6 +2,8 @@ test
 
 disc test
 
+feature test against background image
+
 find disc in captured image
 
 if s>85, verify disc
@@ -18,3 +20,13 @@ stddev
 sum
 
 if edge > limit , call action
+
+timming:
+cam: 20-40ms
+image process:10ms
+action time:50ms
+
+=============
+total: 100 ms for action
+       50 ms for non action
+       
