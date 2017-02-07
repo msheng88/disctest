@@ -1,2 +1,20 @@
 test
 
+disc test
+
+find disc in captured image
+
+if s>85, verify disc
+
+threshold image thup, thdown
+
+erode and dilate
+
+sobel edge
+canny edge
+moments
+mean
+stddev
+sum
+
+if edge > limit , call action
