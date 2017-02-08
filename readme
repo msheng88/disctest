@@ -52,3 +52,17 @@ unloader
   3. save timimg at the end and begining of the image frame
      
   
+shield to uno digital pins as input
+============================
+pin8  - led - Q1 tip122  b
+pin10 - led - Q2 tip122  b
+pin13 - led -> Q3 tip122 b
+
+
+soldnoid a  - connects to +24 and Q1 tip122 c
+soldnoid b  - connects to +24 and Q2 tip122 c
+soldnoid c  - connects to +24 and Q3 tip122 c
+
+all tip122's e to ground
+
+D1,D2 and D3 for protection, connects to soldnoids
